@@ -1,0 +1,21 @@
+{
+    "port": 4000,
+    "authenticationSecret": "mysecret",
+    "MONGODB_URL": "mongodb://localhost:27017/fbapp",
+    "logging": {
+        "appenders": {
+            "default": {
+                "type": "console"
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "default"
+                ],
+                "level": "debug"
+            }
+        }
+    },
+    "tokenExpireInTime": 600000
+}

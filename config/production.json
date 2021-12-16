@@ -1,0 +1,21 @@
+{
+    "port": 4000,
+    "authenticationSecret": "mysecret",
+    "MONGODB_URL": "mongodb+srv://shivampandey5817:Radhey123@cluster0.hjboc.mongodb.net/fbAppProd?retryWrites=true&w=majority",
+    "logging": {
+        "appenders": {
+            "default": {
+                "type": "console"
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "default"
+                ],
+                "level": "debug"
+            }
+        }
+    },
+    "tokenExpireInTime": 600000
+}
